@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="350.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calculator.Controller">
+   <children>
+      <TextField fx:id="screen" alignment="BOTTOM_RIGHT" prefHeight="125.0" prefWidth="300.0" style="-fx-background-color: #e0e0e0#e0e0e0;" text="0">
+         <VBox.margin>
+            <Insets left="25.0" right="25.0" top="15.0" />
+         </VBox.margin>
+         <font>
+            <Font size="35.0" />
+         </font>
+      </TextField>
+      <HBox alignment="CENTER" prefHeight="72.0" prefWidth="350.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+         <children>
+            <Button fx:id="bt7" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt8" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="8">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt9" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="9">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btDiv" layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#operate" prefHeight="60.0" prefWidth="60.0" text="/">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="158.0" prefHeight="72.0" prefWidth="350.0">
+         <children>
+            <Button fx:id="bt4" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt5" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="5">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt6" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="6">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btMul" layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#operate" prefHeight="60.0" prefWidth="60.0" text="*">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="230.0" prefHeight="72.0" prefWidth="350.0">
+         <children>
+            <Button fx:id="bt1" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="2">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt3" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="60.0" text="3">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btSub" layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#operate" prefHeight="60.0" prefWidth="60.0" text="-">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="374.0" prefHeight="72.0" prefWidth="350.0">
+         <children>
+            <Button fx:id="bt0" mnemonicParsing="false" onAction="#showNumbers" prefHeight="60.0" prefWidth="140.0" text="0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btEqu" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#operate" prefHeight="60.0" prefWidth="60.0" text="=">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="btPlus" layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#operate" prefHeight="60.0" prefWidth="60.0" text="+">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="389.0" prefHeight="72.0" prefWidth="350.0">
+         <children>
+            <Button fx:id="btC" mnemonicParsing="false" onAction="#ClearScreen" prefHeight="60.0" prefWidth="140.0" text="CLEAR">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

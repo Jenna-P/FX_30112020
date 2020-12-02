@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lotto.Controller">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="91.0" prefWidth="400.0">
+         <VBox.margin>
+            <Insets top="25.0" />
+         </VBox.margin>
+         <children>
+            <Button fx:id="generate" mnemonicParsing="false" onAction="#showLottoNumber" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 90; -fx-background-color: #263ad1#263ad1; -fx-border-color: WHITE; -fx-border-width: 3; -fx-border-radius: 90;" text="Generate" textFill="WHITE">
+               <HBox.margin>
+                  <Insets top="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Impact" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="reset" layoutX="180.0" layoutY="25.0" mnemonicParsing="false" onAction="#resetNumber" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 90; -fx-background-color: #0cad2c#0cad2c; -fx-border-color: WHITE; -fx-border-width: 3; -fx-border-radius: 90;" text="Reset" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" top="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="160.0" prefWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+         <children>
+            <TextField fx:id="txt1" alignment="CENTER" prefHeight="75.0" prefWidth="75.0" style="-fx-text-fill: RED;">
+               <HBox.margin>
+                  <Insets top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Apple LiGothic Medium" size="35.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txt2" alignment="CENTER" layoutX="171.0" layoutY="40.0" prefHeight="75.0" prefWidth="75.0" style="-fx-text-fill: #900eed#900eed;">
+               <font>
+                  <Font name="Apple LiGothic Medium" size="35.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="2.0" top="30.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField fx:id="txt3" alignment="CENTER" layoutX="211.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-text-fill: BROWN;">
+               <font>
+                  <Font name="Apple LiGothic Medium" size="35.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="2.0" top="30.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField fx:id="txt4" alignment="CENTER" layoutX="251.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-text-fill: #edb742#edb742;">
+               <font>
+                  <Font name="Apple LiGothic Medium" size="35.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="2.0" top="30.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField fx:id="txt5" alignment="CENTER" layoutX="291.0" layoutY="10.0" prefHeight="75.0" prefWidth="75.0" style="-fx-text-fill: #421ff0#421ff0;">
+               <font>
+                  <Font name="Apple LiGothic Medium" size="35.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="2.0" top="30.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+   </children>
+</VBox>
