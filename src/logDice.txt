@@ -1,0 +1,8 @@
+Fri Dec 04 13:59:31 CET 2020 Dice rolled 6
+Fri Dec 04 13:59:32 CET 2020 Dice rolled 3
+Fri Dec 04 13:59:34 CET 2020 Dice rolled 1
+Fri Dec 04 13:59:37 CET 2020 Dice rolled 3
+Fri Dec 04 13:59:39 CET 2020 Dice rolled 3
+Fri Dec 04 14:01:35 CET 2020 Dice rolled 6
+Fri Dec 04 14:01:37 CET 2020 Dice rolled 5
+Fri Dec 04 14:01:38 CET 2020 Dice rolled 5

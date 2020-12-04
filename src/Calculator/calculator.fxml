@@ -7,7 +7,7 @@
 
 <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="350.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calculator.Controller">
    <children>
-      <TextField fx:id="screen" alignment="BOTTOM_RIGHT" prefHeight="125.0" prefWidth="300.0" style="-fx-background-color: #e0e0e0#e0e0e0;" text="0">
+      <TextField fx:id="screen" alignment="BOTTOM_RIGHT" prefHeight="125.0" prefWidth="300.0" style="-fx-background-color: #e0e0e0#e0e0e0;">
          <VBox.margin>
             <Insets left="25.0" right="25.0" top="15.0" />
          </VBox.margin>
